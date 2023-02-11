@@ -1,8 +1,10 @@
 <template>
-  <button @click="updateParentWidth">100 mas</button>
-    <div :style="`text-align: center; border: 1px red solid; width: ${parentWidth}px;`" >
-      <VuePDF ref="viewer" :pdf="pdf" :page="1" text-layer annotation-layer fit-parent  />
+    <div :style="`text-align: center`" v-for="i in [2, 1, 4, 5, 3]" >
+      <VuePDF :pdf="pdf" :page="i"  />
     </div>
+    <!-- <div :style="`text-align: center`" >
+      <VuePDF :pdf="pdf" :page="1"  />
+    </div> -->
 </template>
 
 <script>
@@ -17,19 +19,11 @@ export default {
   },
   setup(){
   
-    const {pdf, pages, info} = usePDF("example_014.pdf")
+    const {pdf, pages} = usePDF("large.pdf")
   
-    const viewer = ref({})
-    const parentWidth = ref(600)
     return {
-      viewer,
-      info,
       pdf,
-      parentWidth,
-      updateParentWidth: () => {        
-        parentWidth.value += 100
-        viewer.value.reload()
-      },
+      pages
     }
   }
 
