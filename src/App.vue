@@ -1,9 +1,17 @@
 <template>
-    <div :style="`text-align: center`" v-for="i in [2, 1, 4, 5, 3]" >
-      <VuePDF :pdf="pdf" :page="i"  />
+    <div :style="`text-align: center`" v-for="i in pages" >
+      <VuePDF :pdf="pdf" :page="i" lazy-load text-layer >
+        <div style="text-align: center;">
+          Loading... 
+        </div>
+      </VuePDF>
     </div>
     <!-- <div :style="`text-align: center`" >
-      <VuePDF :pdf="pdf" :page="1"  />
+      <VuePDF :pdf="pdf" :page="1" :scale="2" text-layer annotation-layer>
+        <div style="text-align: center;">
+          Loading... 
+        </div>
+      </VuePDF>
     </div> -->
 </template>
 
