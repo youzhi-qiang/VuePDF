@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-433985b0","path":"/guide/slots.html","title":"Slots","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"loading: default","slug":"loading-default","link":"#loading-default","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"guide/slots.md"}');export{t as data};
