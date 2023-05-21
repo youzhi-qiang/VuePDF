@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-6dfe6db7","path":"/guide/examples/one_page.html","title":"One page","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"guide/examples/one_page.md"}');export{e as data};

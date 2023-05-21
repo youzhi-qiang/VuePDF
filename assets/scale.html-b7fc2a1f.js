@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-22258a2e","path":"/guide/examples/scale.html","title":"Scale","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"guide/examples/scale.md"}');export{e as data};

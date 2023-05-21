@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1570d88c","path":"/examples/basic/text_layer.html","title":"Text-layer","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"examples/basic/text_layer.md"}');export{e as data};

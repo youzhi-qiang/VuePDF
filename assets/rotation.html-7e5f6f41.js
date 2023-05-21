@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-52b5ccad","path":"/examples/basic/rotation.html","title":"Rotation","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"examples/basic/rotation.md"}');export{t as data};

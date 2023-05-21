@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7393d4e7","path":"/examples/annotation_events/annotation_forms.html","title":"Forms fields","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"examples/annotation_events/annotation_forms.md"}');export{t as data};

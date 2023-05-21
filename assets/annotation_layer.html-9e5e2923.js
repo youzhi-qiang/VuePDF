@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-1612306c","path":"/examples/basic/annotation_layer.html","title":"Annotation-layer","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"examples/basic/annotation_layer.md"}');export{a as data};
